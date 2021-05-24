@@ -8,7 +8,7 @@ def main():
     search(start_node, jugs, target_capacity, check_dict)
 
 def get_index(node):
-    return pow(7, node[0]) * pow(5, node[1])
+    return pow(4, node[0]) * pow(3, node[1])
 
 #Get volume of the jugs
 def get_jugs():
